@@ -1,0 +1,11 @@
+{
+  "name": "responsive-img",
+  "version": "1.0.0",
+  "description": "a wrapper for github.com/kvendrik/responsive-images.js",
+  "author": "Isvara Woo",
+  "main": "responsive-img.js",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/IsvaraWoo/responsive-img.git"
+  }
+}
