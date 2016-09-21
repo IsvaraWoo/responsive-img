@@ -11,7 +11,6 @@ npm install --save responsive-img
 
 ####Use with webpack
 Require it like other library:
-
 ```js
 require('responsive-img');
 ```
@@ -19,12 +18,11 @@ require('responsive-img');
 ####Use with react
 1. Should config data-src according [responsive-images.js](https://github.com/kvendrik/responsive-images.js) guide.
 2. Manully call makeImagesResponsive once. usually call it on componentDidMount is a good choice. 
-
 ```js
 var Box = React.createClass({
   componentDidMount: function () {
     ...
-    makeImagesResponsive(this.refs.productInfoBox);
+    makeImagesResponsive(this.refs.box);
   },
   render: function () {
     return (
